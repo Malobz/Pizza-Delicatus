@@ -1,0 +1,18 @@
+.jumbtron>p,
+.page-header,
+#price-content>h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+}
+
+body {
+    background-image: url("/images/likemeat-CbNAuxSZTFo-unsplash.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    line-height: 1.62em;
+    font-family: 'Brawler', serif;
+    max-width: 100%;
+    height: auto;
+}
