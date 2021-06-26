@@ -10,16 +10,50 @@
     font-size: large;
 }
 
+body {
+    background-image: url("/images/likemeat-CbNAuxSZTFo-unsplash.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+#piz {
+    color: yellow;
+    font-family: 'Ultra', serif;
+    font-size: 100px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 5px rgb(231, 10, 10);
+    margin-top: 100px;
+}
+
+#stop {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 5px red;
+}
+
+.btn {
+    color: white;
+    background-color: red;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
 
 /* home>p,
 .page-header,
 #price-content>h1 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 2em; */
+    font-size: 2em;
+
+} */
 
 
-}
-body {
+/* body {
     background-image: url("/images/likemeat-CbNAuxSZTFo-unsplash.jpg");
     position: relative;
     background-repeat: no-repeat;
@@ -30,7 +64,8 @@ body {
     max-width: 100%;
     height: auto;
     margin: 0;
-}
+} */
+
 
 /* .top {
     background-color: black;
@@ -40,21 +75,26 @@ body {
     width: auto;
 } */
 
+
 /* home {
     margin-right: 700px;
     background-color: inherit;
     color: #FDB913;
     margin-top: 60px;
 } */
-.about {
+
+
+/* .about {
     text-align: center;
     font-size: 1.25em;
     font-weight: bold;
     margin-left: 50px;
     margin-right: 50px;
     color: #FDB913;
-}
-.card {
+} */
+
+
+/* .card {
     width: 80%;
     min-height: 460px;
     margin-top: 60px;
@@ -108,8 +148,10 @@ h5 {
     size: 50%;
     width: 50%;
     margin-right: 10px;
-}
-.back h5 {
+} */
+
+
+/* .back h5 {
     color: #FDB913;
     margin-left: 10px;
     font-family: 'Kaushan Script', cursive;
@@ -121,17 +163,22 @@ h5 {
     background-color: black;
     margin-left: 10px;
     margin-top: 10px;
-}
+} */
+
 
 /* .nav-link {
     color: #FDB913;
 } */
-.banner {
+
+
+/* .banner {
     color: #FDB913;
     background-image: url(../css/p4.jpg);
     height: 600px;
-}
-.banner h1 {
+} */
+
+
+/* .banner h1 {
     border-top: 6px double bisque;
     border-bottom: 6px double bisque;
     animation: fromLeft;
@@ -141,8 +188,10 @@ h5 {
     animation-fill-mode: forwards;
     text-align: center;
     margin-top: 100px;
-}
-@keyframes fromLeft {
+} */
+
+
+/* @keyframes fromLeft {
     0% {
         transform: translateX(-100px);
         opacity: 0;
@@ -159,4 +208,4 @@ h5 {
 }
 #amount {
     margin-left: 35%;
-}
+} */
