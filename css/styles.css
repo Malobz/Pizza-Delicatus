@@ -57,10 +57,16 @@ body {
     margin-top: 90px;
 }
 
-.active {
+.pic {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+/* .active {
     height: auto;
     margin-top: 20px;
-}
+} */
 
 
 /* home>p,
