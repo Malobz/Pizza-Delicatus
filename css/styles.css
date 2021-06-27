@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("/images/likemeat-CbNAuxSZTFo-unsplash.jpg");
+    background-image: url('../images/likemeat-CbNAuxSZTFo-unsplash.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,8 @@ body {
 #ord {
     margin-top: 30px;
     text-align: center;
-    color: red;
+    color: rgb(245, 8, 8);
+    scroll-behavior: smooth;
 }
 
 #ord h2 {
@@ -86,6 +87,7 @@ body {
     position: relative;
     color: red;
     margin-left: 40px;
+    scroll-behavior: smooth;
 }
 
 .order {
