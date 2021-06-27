@@ -18,6 +18,8 @@ body {
     max-width: 100%;
     height: auto;
     margin: 0;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
 }
 
 #piz {
@@ -60,6 +62,49 @@ body {
 .pic {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+#ord {
+    margin-top: 30px;
+    text-align: center;
+    color: red;
+}
+
+#ord h2 {
+    color: white;
+    text-shadow: 2px 2px 5px red;
+}
+
+.card {
+    width: 80%;
+    min-height: 460px;
+    margin-top: 30px;
+    box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
+    background: #fff;
+    border-radius: 12px;
+    max-width: 700px;
+    position: relative;
+    color: red;
+    margin-left: 40px;
+}
+
+.order {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#submit-pizza {
+    /* align-items: center;
+    margin-left: center; */
+    margin-right: 180px;
+    color: #FDB913;
+    float: right;
+}
+
+#amount {
+    align-items: center;
+    float: left;
+    margin-left: 520px;
 }
 
 
