@@ -42,7 +42,7 @@
                 <div class="col-md-12 text-center">
                     <h1 id="piz">PIZZA DELICATUS</h1>
                     <p id="stop">One Stop Pizza Joint</p>
-                    <a class="btn" href="#make-order">  Order Now!</a>
+                    <a class="btn" href="#ord">  Order Now!</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
 
                         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+                                <div class="carousel-item active pic">
                                     <img src="/images/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
@@ -85,7 +85,74 @@
             </div>
         </div>
         </div>
+    </section>
 
+    <section id="ord">
+        <div class="container"></div>
+
+        <h2>Order Here</h2>
+
+
+        <form class="form-group" id="custom-pizza">
+            <div class="order">
+                <div class="row">
+                    <div class="col-md-4 col-xs-9">
+                        <div class="card">
+                            <img src="images/inna-podolska-JspLKUauwSI-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sizes of pizza</h5>
+                                <p class="card-text">Choose the size of Pizza:</p>
+                                <select required class="form-control" id="size">
+                                                <option></option>
+                                                <option value="small-pizza">small (500)</option>
+                                                <option value="medium-pizza">medium (750)</option>
+                                                <option value="large-pizza">large (1000)</option>
+                                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-9">
+                        <div class="card">
+                            <img src="images/crust.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Crust</h5>
+                                <p class="card-text">Choose a crust:</p>
+                                <select required class="form-control" id="crust">
+                                                <option></option>
+                                                <option value="cheese-filled">Cheese filled (100)</option>
+                                                <option value="thick">Thick (150)</option>
+                                                <option value="stuffed">Stuffed (150)</option>
+                                                <option value="crispy">Crispy (150)</option>
+                                            </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-9">
+                        <div class="card">
+                            <img src="images/p1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Toppings</h5>
+                                <p class="card-text">Choose toppings:</p>
+                                <select required class="form-control" id="toppings">
+                                                <option></option>
+                                                <option value="pepperoni">Pepperoni (100)</option>
+                                                <option value="sausage">Sausage (150)</option>
+                                                <option value="bacon">Bacon (200)</option>
+                                                <option value="mushrooms">Mushrooms (150)</option>
+                                                <option value="chicken">Chicken (150)</option>
+                                            </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <button type="submit" class="order-button btn btn-dark" id="submit-pizza">Place Order</button>
+            <input type="number" id="amount" placeholder="Number of pizzas" required>
+        </form>
+
+
+        </div>
+        </div>
     </section>
     <!-- <div class="container-fluid">
 
